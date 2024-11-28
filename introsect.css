@@ -1,0 +1,101 @@
+ 
+
+.mybackground {
+width: 100vw;
+margin-bottom: 50vw;
+}
+
+.bgimage {
+  width: 100vw;
+  height: 100%;
+  filter: grayscale(100);
+  opacity: 0.2;
+  object-fit: cover;
+  
+}
+
+.intro {
+  position: absolute;
+  top: 25vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 6vw;
+  text-align: center;
+}
+
+#introle{
+  position: absolute;
+  top: 35vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.6vw;
+  text-align: center;
+}
+  
+@media only screen and (max-width: 768px) 
+{
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} 
+
+.mybackground {
+width: 100vw;
+margin-bottom: 160vw;
+}
+
+.bgimage{
+margin-left: 8.5vw;
+width: 98vw;	
+top:0%;
+}	
+.intro{
+margin-left: 8.5vw;
+font-size: 250%;
+top: 12%;
+}
+#introle{
+margin-left: 9vw;
+font-size: 50%;
+overflow: visible;
+top: 18%;
+}	
+}
+
+
+ @media only screen and (max-width: 344px) {
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} 
+
+.mybackground {
+width: 100vw;
+margin-bottom: 190vw;
+}	 
+ }
+ 
+@media only screen and (max-width: 375px), 
+       only screen and (max-height: 667px) {
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} 
+
+.mybackground {
+width: 100vw;
+margin-bottom: 110vw;
+}	 
+}
+

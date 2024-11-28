@@ -1,0 +1,50 @@
+.certsect {
+	margin-bottom: 50vw;
+}
+
+.certcontainer {
+  margin-left: 13vw;
+  margin-right:8vw;
+  margin-top: 4.5vw;
+  max-width: 1200px;
+  color: white;
+}
+
+img.tsf {
+	width: 62.3vw;
+	height: 41vw;
+	margin-left: 4.5vw;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.certcontainer h4{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2vw;
+}
+
+
+@media only screen and (max-width: 768px){
+
+.certcontainer {
+  margin-left:26vw;
+  margin-right:10vw;
+  margin-top: 0;
+  color: white;
+  font-size: 2.5vw;
+  
+}
+
+img.tsf {
+	width: 63.5vw;
+	height: 42vw;
+	margin-left:0;
+    margin-right:0vw;
+}
+
+.certcontainer h4{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 200vw;
+}
+}
