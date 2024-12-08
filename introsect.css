@@ -1,5 +1,3 @@
-
-
 .mybackground {
 width: 98vw;
 margin-bottom: 50vw;
@@ -30,7 +28,7 @@ margin-bottom: 50vw;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   text-align: center;
 }
   
@@ -97,29 +95,4 @@ html,body
 width: 100vw;
 margin-bottom: 110vw;
 }	 
-}
-
-/* Reinforce this code in the index file in github*/
-@media only screen and (max-width: 336px) {
-.intro {
-font-size: 8vw;	
-margin-top: 10vw;
-}
-#introle {
-font-size: 2.2vw;	
-margin-top: 18vw;
-}
-}
-
-
-
-@media only screen and (max-width: 672px) {
-.intro {
-font-size: 6.5vw;	
-margin-top: 10vw;
-}
-#introle {
-font-size: 1.6vw;	
-margin-top: 18vw;
-}
 }
