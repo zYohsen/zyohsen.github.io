@@ -115,11 +115,11 @@ margin-top: 18vw;
 
 @media only screen and (max-width: 672px) {
 .intro {
-font-size: 6.5vw;	
-margin-top: 10vw;
+font-size: 9vw;	
+margin-top: 8vw;
 }
 #introle {
-font-size: 1.6vw;	
-margin-top: 18vw;
+font-size: 3vw;	
+margin-top: 15vw;
 }
 }
