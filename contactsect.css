@@ -1,14 +1,14 @@
 .contactsec{
-	margin-bottom: 20vw;
+    margin-bottom: 20vw;
 }
 
 .container{
-	color: white;
+    color: white;
     max-width: 1200px;
     margin-left: 13vw;
     margin-right: 14.5vw;
-	margin-top: 4vw;
-	padding:  0.05vw 3vw 3vw 3vw; 
+    margin-top: 4vw;
+    padding:  0.05vw 3vw 3vw 3vw; 
     background-color: #28282B;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);	
 }
@@ -84,54 +84,54 @@ font-size: 1.5vw;
 }
 
 .social-media img:hover {
-    transform: scale(1.25);
-    filter: grayscale(0%);
+transform: scale(1.25);
+filter: grayscale(0%);
 }
 
 .social-media p a:hover {
-    transform: scale(1.25);
-    font-weight: bold;
+transform: scale(1.25);
+font-weight: bold;
 }
 
 .contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .address, .social-media, .email {
-    flex-basis: 30%;
+ flex-basis: 30%;
 }
 
 
 .email a {
-    text-decoration: none;
-    color: #337ab7;
+text-decoration: none;
+color: #337ab7;
 }
 
  
 @media only screen and (max-width: 672px) {
  
     .container {
-	    margin-left:30vw;
-	    margin-right:15vw;
+	margin-left:25vw;
+	margin-right:12.5vw;
         margin-bottom: 25vw;
-		margin-top: 0vw;
-		padding-top: 1vw;
+	margin-top: 0vw;
+	padding-top: 1vw;
  		
     }	
     .container h3{
-	    font-size: 2vw;		
+	font-size: 2vw;		
     }	
 
     .connect, .address, .social-media, .email {
         flex-basis: 100%;
         margin-bottom: 2vw;
-		max-width: 48vw;
+	max-width: 48vw;
     }
 	
 	.connect{
-		margin-left: 10vw;
+	margin-left: 10vw;
 	}
 	
     .connect img {
@@ -142,7 +142,7 @@ font-size: 1.5vw;
     .connect p {
          line-height: 5.5vw;
          height: 5vw;
-		 font-size: 3vw;
+	 font-size: 3vw;
     }
 	.address img{
          float: left;
@@ -160,52 +160,52 @@ font-size: 1.5vw;
 	}
 	.email p{
          line-height: 3.5vw;
-         font-size: 1.3vw;
+         font-size: 1vw;
 	}
 
 	.social-media{
-		
-		margin-top: 5vw;
+	  margin-top: 5vw;
 	}
 	.social-media h3{
-		text-align: center;
+	  text-align: center;
 	}
-    .social-media img {
-		margin-left: 20vw;
-        float: left;
-        width: 3vw;
-		height: 3vw;
-		filter: grayscale(100%);
-}
+        .social-media img {
+	  margin-left: 20vw;
+          float: left;
+          width: 3vw;
+	  height: 3vw;
+	  filter: grayscale(100%);
+        }
 	.social-media p {
-	text-align: left;
-        line-height: 2vw;
-        font-size: 3vw;
-}
+	  text-align: left;
+          line-height: 2vw;
+          font-size: 3vw;
+        }
 }
 
 
 @media only screen and (max-width: 336px) {
+ 
     .container {
-	    margin-left:30vw;
-	    margin-right:15vw;
+	margin-left:25vw;
+	margin-right:12.5vw;
         margin-bottom: 25vw;
-		margin-top: 0vw;
-		padding-top: 1vw;
+	margin-top: 0vw;
+	padding-top: 1vw;
  		
     }	
     .container h3{
-	    font-size: 2vw;		
+	font-size: 2vw;		
     }	
 
     .connect, .address, .social-media, .email {
         flex-basis: 100%;
         margin-bottom: 2vw;
-		max-width: 48vw;
+	max-width: 48vw;
     }
 	
 	.connect{
-		margin-left: 10vw;
+	margin-left: 10vw;
 	}
 	
     .connect img {
@@ -216,7 +216,7 @@ font-size: 1.5vw;
     .connect p {
          line-height: 5.5vw;
          height: 5vw;
-		 font-size: 3vw;
+	 font-size: 3vw;
     }
 	.address img{
          float: left;
@@ -234,35 +234,28 @@ font-size: 1.5vw;
 	}
 	.email p{
          line-height: 3.5vw;
-         font-size: 1.3vw;
+         font-size: 1vw;
 	}
 
 	.social-media{
-		
-		margin-top: 5vw;
+	  margin-top: 5vw;
 	}
 	.social-media h3{
-		text-align: center;
+	  text-align: center;
 	}
-    .social-media img {
-		margin-left: 20vw;
-        float: left;
-        width: 3vw;
-		height: 3vw;
-		filter: grayscale(100%);
-}
+        .social-media img {
+	  margin-left: 20vw;
+          float: left;
+          width: 3vw;
+	  height: 3vw;
+	  filter: grayscale(100%);
+        }
 	.social-media p {
-		text-align: left;
-        line-height: 2vw;
-        font-size: 3vw;
+	  text-align: left;
+          line-height: 2vw;
+          font-size: 3vw;
+        }
 }
-}
-
-
-
-
-
-
 /*
 	* {
      background: #000 !important;
