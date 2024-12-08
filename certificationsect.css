@@ -51,18 +51,18 @@ img.tsf {
 
 @media only screen and (max-width: 673px) {
 .certcontainer h2{
-	font-size: 1.5vw;
+	font-size: 4vw;
 }
 .certcontainer h4{
-	font-size: 1vw;
+	font-size: 2.5vw;
 }
 }
 
 @media only screen and (max-width: 336px) {
 .certcontainer h2{
-	font-size: 1.5vw;
+	font-size: 4vw;
 }
 .certcontainer h4{
-	font-size: 1vw;
+	font-size: 2.5vw;
 }
 }
