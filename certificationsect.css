@@ -48,3 +48,21 @@ img.tsf {
 	margin-bottom: 200vw;
 }
 }
+
+@media only screen and (max-width: 673px) {
+.certcontainer h2{
+	font-size: 1.5vw;
+}
+.certcontainer h4{
+	font-size: 1vw;
+}
+}
+
+@media only screen and (max-width: 336px) {
+.certcontainer h2{
+	font-size: 1.5vw;
+}
+.certcontainer h4{
+	font-size: 1vw;
+}
+}
