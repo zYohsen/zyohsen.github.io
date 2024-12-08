@@ -1,3 +1,5 @@
+
+
 .mybackground {
 width: 98vw;
 margin-bottom: 50vw;
@@ -28,7 +30,7 @@ margin-bottom: 50vw;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   text-align: center;
 }
   
@@ -97,6 +99,7 @@ margin-bottom: 110vw;
 }	 
 }
 
+/* Reinforce this code in the index file in github*/
 @media only screen and (max-width: 336px) {
 .intro {
 font-size: 8vw;	
