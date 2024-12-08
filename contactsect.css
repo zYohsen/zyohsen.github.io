@@ -138,154 +138,141 @@ button:hover {
 @media only screen and (max-width: 672px) {
  
     .container {
-	    margin-left:30vw;
-	    margin-right:15vw;
+	margin-left:30vw;
+	margin-right:15vw;
         margin-bottom: 25vw;
-		margin-top: 0vw;
-		padding-top: 1vw;
- 		
+	margin-top: 0vw;
+	padding-top: 1vw;	
     }	
     .container h3{
-	    font-size: 2vw;		
+	font-size: 4vw;		
     }	
-
     .connect, .address, .social-media, .email {
         flex-basis: 100%;
         margin-bottom: 2vw;
-		max-width: 48vw;
+	max-width: 48vw;
     }
-	
-	.connect{
-		margin-left: 10vw;
+     .connect{
+	margin-left: 8vw;
 	}
 	
     .connect img {
          float: left;
-         width: 5vw;
-         height: 5vw;
+         width: 7vw;
+         height: 7vw;
     }
     .connect p {
-         line-height: 5.5vw;
-         height: 5vw;
-		 font-size: 3vw;
+         line-height: 7.5vw;
+         height: 7vw;
+	 font-size: 5vw;
     }
-	.address img{
+    .address img{
          float: left;
-         width: 3.5vw;
-         height: 3.5vw;
+         width: 5vw;
+         height: 5vw;
 	} 
-	.address p{
-         line-height: 3.5vw;
-         font-size: 1.3vw;
+    .address p{
+         line-height: 5vw;
+         font-size: 2.5vw;
 	}
-	.email img{
+    .email img{
          float: left;
-         width: 3.5vw;
-         height: 3.5vw;
+         width: 5vw;
+         height: 5vw;
 	}
-	.email p{
-         line-height: 3.5vw;
-         font-size: 1.3vw;
+    .email p{
+         line-height: 5vw;
+         font-size: 2.5vw;
 	}
-
-	.social-media{
-		
-		margin-top: 5vw;
+    .social-media{ 
+	 margin-top: 5vw;
 	}
-	.social-media h3{
-		text-align: center;
+    .social-media h3{
+	text-align: center;
 	}
     .social-media img {
-		margin-left: 20vw;
+	margin-left: 16vw;
         float: left;
-        width: 3vw;
-		height: 3vw;
-		filter: grayscale(100%);
-}
-	.social-media p {
-		text-align: left;
-        line-height: 2vw;
-        font-size: 3vw;
-}
+        width: 6vw;
+	height: 6vw;
+	filter: grayscale(100%);
+        }
+    .social-media p {
+	text-align: left;
+        line-height: 5vw;
+        font-size: 6vw;
+        }
 }
 
 
 @media only screen and (max-width: 336px) {
+ 
     .container {
-	    margin-left:30vw;
-	    margin-right:15vw;
+	margin-left:30vw;
+	margin-right:15vw;
         margin-bottom: 25vw;
-		margin-top: 0vw;
-		padding-top: 1vw;
- 		
+	margin-top: 0vw;
+	padding-top: 1vw;	
     }	
     .container h3{
-	    font-size: 2vw;		
+	font-size: 4vw;		
     }	
-
     .connect, .address, .social-media, .email {
         flex-basis: 100%;
         margin-bottom: 2vw;
-		max-width: 48vw;
+	max-width: 48vw;
     }
-	
-	.connect{
-		margin-left: 10vw;
+     .connect{
+	margin-left: 8vw;
 	}
 	
     .connect img {
          float: left;
-         width: 5vw;
-         height: 5vw;
+         width: 7vw;
+         height: 7vw;
     }
     .connect p {
-         line-height: 5.5vw;
-         height: 5vw;
-		 font-size: 3vw;
+         line-height: 7.5vw;
+         height: 7vw;
+	 font-size: 5vw;
     }
-	.address img{
+    .address img{
          float: left;
-         width: 3.5vw;
-         height: 3.5vw;
+         width: 5vw;
+         height: 5vw;
 	} 
-	.address p{
-         line-height: 3.5vw;
-         font-size: 1.3vw;
+    .address p{
+         line-height: 5vw;
+         font-size: 2.5vw;
 	}
-	.email img{
+    .email img{
          float: left;
-         width: 3.5vw;
-         height: 3.5vw;
+         width: 5vw;
+         height: 5vw;
 	}
-	.email p{
-         line-height: 3.5vw;
-         font-size: 1.3vw;
+    .email p{
+         line-height: 5vw;
+         font-size: 2.5vw;
 	}
-
-	.social-media{
-		
-		margin-top: 5vw;
+    .social-media{ 
+	 margin-top: 5vw;
 	}
-	.social-media h3{
-		text-align: center;
+    .social-media h3{
+	text-align: center;
 	}
     .social-media img {
-		margin-left: 20vw;
+	margin-left: 16vw;
         float: left;
-        width: 3vw;
-		height: 3vw;
-		filter: grayscale(100%);
+        width: 6vw;
+	height: 6vw;
+	filter: grayscale(100%);
+        }
+    .social-media p {
+	text-align: left;
+        line-height: 5vw;
+        font-size: 6vw;
+        }
 }
-	.social-media p {
-		text-align: left;
-        line-height: 2vw;
-        font-size: 3vw;
-}
-}
-
-
-
-
 
 
 /*
