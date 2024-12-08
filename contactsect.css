@@ -71,13 +71,6 @@ position: relative;
 
 .social-media img {
 float: left;
-width: 2.5vw;
-height: 2.5vw;
-filter: grayscale(100%);
-}
-
-.social-media img {
-float: left;
 width: 2vw;
 height: 2vw;
 filter: grayscale(100%);
@@ -89,6 +82,14 @@ line-height: 1.5vw;
 font-size: 2vw;
 text-decoration: none;
 }
+
+.social-btn {
+color:white;
+text-decoration: none;
+line-height: 1vw;
+font-size: 1.2vw;
+}
+
 .social-media img:hover {
     transform: scale(1.25);
     filter: grayscale(0%);
@@ -115,170 +116,158 @@ text-decoration: none;
     color: #337ab7;
 }
 
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input, textarea {
-    width: 40;
-    padding: 1vw;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-}
-
-button {
-    background-color: #337ab7;
-    color: #fff;
-    padding: 1vw;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
-}
  
 @media only screen and (max-width: 672px) {
  
     .container {
-	margin-left:25vw;
-	margin-right:12.5vw;
+	    margin-left:30vw;
+	    margin-right:15vw;
         margin-bottom: 25vw;
-	margin-top: 0vw;
-	padding-top: 1vw;	
+		margin-top: 0vw;
+		padding-top: 1vw;
+ 		
     }	
     .container h3{
-	font-size: 4vw;		
+	    font-size: 2vw;		
     }	
+
     .connect, .address, .social-media, .email {
         flex-basis: 100%;
         margin-bottom: 2vw;
-	max-width: 48vw;
+		max-width: 48vw;
     }
-     .connect{
-	margin-left: 8vw;
+	
+	.connect{
+		margin-left: 10vw;
 	}
 	
     .connect img {
          float: left;
-         width: 7vw;
-         height: 7vw;
+         width: 5vw;
+         height: 5vw;
     }
     .connect p {
-         line-height: 7.5vw;
-         height: 7vw;
-	 font-size: 5vw;
+         line-height: 5.5vw;
+         height: 5vw;
+		 font-size: 3vw;
     }
-    .address img{
+	.address img{
          float: left;
-         width: 5vw;
-         height: 5vw;
+         width: 3.5vw;
+         height: 3.5vw;
 	} 
-    .address p{
-         line-height: 5vw;
-         font-size: 2.5vw;
+	.address p{
+         line-height: 3.5vw;
+         font-size: 1.3vw;
 	}
-    .email img{
+	.email img{
          float: left;
-         width: 5vw;
-         height: 5vw;
+         width: 3.5vw;
+         height: 3.5vw;
 	}
-    .email p{
-         line-height: 5vw;
-         font-size: 2.5vw;
+	.email p{
+         line-height: 3.5vw;
+         font-size: 1.3vw;
 	}
-    .social-media{ 
-	 margin-top: 5vw;
+
+	.social-media{
+		
+		margin-top: 5vw;
 	}
-    .social-media h3{
-	text-align: center;
+	.social-media h3{
+		text-align: center;
 	}
     .social-media img {
-	margin-left: 16vw;
+		margin-left: 20vw;
         float: left;
-        width: 6vw;
-	height: 6vw;
-	filter: grayscale(100%);
-        }
-    .social-media p {
-	text-align: left;
-        line-height: 5vw;
-        font-size: 10vw;
-        }
+        width: 3vw;
+		height: 3vw;
+		filter: grayscale(100%);
+}
+	.social-media p {
+		text-align: left;
+        line-height: 2vw;
+        font-size: 3vw;
+}
 }
 
 
 @media only screen and (max-width: 336px) {
- 
     .container {
-	margin-left:30vw;
-	margin-right:15vw;
+	    margin-left:30vw;
+	    margin-right:15vw;
         margin-bottom: 25vw;
-	margin-top: 0vw;
-	padding-top: 1vw;	
+		margin-top: 0vw;
+		padding-top: 1vw;
+ 		
     }	
     .container h3{
-	font-size: 4vw;		
+	    font-size: 2vw;		
     }	
+
     .connect, .address, .social-media, .email {
         flex-basis: 100%;
         margin-bottom: 2vw;
-	max-width: 48vw;
+		max-width: 48vw;
     }
-     .connect{
-	margin-left: 8vw;
+	
+	.connect{
+		margin-left: 10vw;
 	}
 	
     .connect img {
          float: left;
-         width: 7vw;
-         height: 7vw;
+         width: 5vw;
+         height: 5vw;
     }
     .connect p {
-         line-height: 7.5vw;
-         height: 7vw;
-	 font-size: 5vw;
+         line-height: 5.5vw;
+         height: 5vw;
+		 font-size: 3vw;
     }
-    .address img{
+	.address img{
          float: left;
-         width: 5vw;
-         height: 5vw;
+         width: 3.5vw;
+         height: 3.5vw;
 	} 
-    .address p{
-         line-height: 5vw;
-         font-size: 2.5vw;
+	.address p{
+         line-height: 3.5vw;
+         font-size: 1.3vw;
 	}
-    .email img{
+	.email img{
          float: left;
-         width: 5vw;
-         height: 5vw;
+         width: 3.5vw;
+         height: 3.5vw;
 	}
-    .email p{
-         line-height: 5vw;
-         font-size: 2.5vw;
+	.email p{
+         line-height: 3.5vw;
+         font-size: 1.3vw;
 	}
-    .social-media{ 
-	 margin-top: 5vw;
+
+	.social-media{
+		
+		margin-top: 5vw;
 	}
-    .social-media h3{
-	text-align: center;
+	.social-media h3{
+		text-align: center;
 	}
     .social-media img {
-	margin-left: 16vw;
+		margin-left: 20vw;
         float: left;
-        width: 6vw;
-	height: 6vw;
-	filter: grayscale(100%);
-        }
-    .social-media p {
-	text-align: left;
-        line-height: 5vw;
-        font-size: 6vw;
-        }
+        width: 3vw;
+		height: 3vw;
+		filter: grayscale(100%);
 }
+	.social-media p {
+		text-align: left;
+        line-height: 2vw;
+        font-size: 3vw;
+}
+}
+
+
+
+
 
 
 /*
