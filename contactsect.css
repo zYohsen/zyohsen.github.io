@@ -76,11 +76,18 @@ height: 2.5vw;
 filter: grayscale(100%);
 }
 
-.social-media p a {
+.social-media p {
 color:white;
-line-height: 2.5vw;
-font-size: 1vw;
+line-height: 3vw;
+font-size: 2vw;
 text-decoration: none;
+}
+
+.social-btn {
+color:white;
+text-decoration: none;
+line-height: 1vw;
+font-size: 1.2vw;
 }
 
 .social-media img:hover {
