@@ -3,7 +3,7 @@
 
 <head> 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="author" content="Giordano Mariano Tubeo">
 <!---
 <meta http-equiv="refresh" content="3">
@@ -25,11 +25,14 @@ body {
   font-family: "Montserrat", serif;
      }
 </style>
-</head
+</head>
 
 <body>
-<a id="homenav"></a>
-<nav class="navbar">
+
+<!-- THIS IS NAVIGATION BAR-->
+<div>
+  <a id="homenav"></a>
+  <nav class="navbar">
     <ul>
       <li><a href="#homenav" class="nav-btn">Home</a></li>
       <li><a href="#aboutnav" class="nav-btn">About</a></li>
@@ -37,110 +40,97 @@ body {
       <li><a href="#project" class="nav-btn">Projects</a></li>
       <li><a href="#contactsection" class="nav-btn">Contact</a></li>
     </ul>
-</nav>
+  </nav>
+</div>
 
+
+<!-- THIS IS INTRODUCTION-->
 <div class="mybackground" >
     <img class="bgimage" src="PFBG.png" alt="Technology">
     <div class="intro">Giordano Tubeo. </div>
     <h5 id="introle">Programmer and Fraud Specialist.</h5>
 </div>
+
+
+<!-- THIS IS ABOUT SUB-SECTION-->
+<div class="aboutsection" id="aboutnav"><br>
+  <div class="about">
+    <h2>About me</h2>
+    <hr style="width:20vw">
+    <p>Results-driven professional seeking to leverage 2 years of experience in fintech's fraud prevention, analysis, and risk management to drive success in programming. Proficient in Java and SQL, with a strong foundation in problem-solving, critical thinking, and collaboration. Eager to contribute analytical expertise to innovative software and web development projects.</p><br>
+  </div>
+
+<!-- THIS IS ABOUT SUB-SECTION-->
+  <div class="aboutsubsect">
+    <h2>Skillset</h2>
+	
+    <div class="grid-container">	
+      <div class="grid-item">
+        <img src="csrr.png" alt="Image 1"><p class="skilltitles">Customer Service</p>
+      </div>
+	  
+      <div class="grid-item">
+        <img src="fraud.png" alt="Image 2"><p class="skilltitles">Payments risk & fraud prevention</p>
+      </div>
+
+      <div class="grid-item">
+        <img src="java.png" alt="Image 3"><p class="skilltitles">Junior level JAVA</p>
+      </div>
+
+      <div class="grid-item">
+        <img src="sql.png" alt="Image 4"><p class="skilltitles">Junior level SQL</p>
+      </div>
+        
+      <div class="grid-item">
+        <img src="gsuite.png" alt="Image 5"><p class="skilltitles">GSuite proficiency</p>
+      </div>
+    </div>
+ 
+    <div class="resumedl">
+      <form method="get" action="Giordano_Mariano_Tubeo_Resume_112924.pdf"><h2>Resume: &nbsp;<button class="btn">Download <img src="download.ico"></button></h2></form>
+    </div>
+	
+  </div>
 </div>
 
-<div class="aboutsection" id="aboutnav">
-  <br>
-  <div class="about">
-  <h2>About me</h2>
-  <hr style="width:20vw">
-  <p>Results-driven professional seeking to leverage my demonstrative experience in fintech's fraud prevention, analysis, and risk management to drive success in programming. Proficient in Java and SQL, with a strong foundation in problem-solving, critical thinking, and collaboration. Eager to contribute analytical expertise to innovative software and web development projects.</p><br>
-  </div>
 
-<div class="aboutsubsect">
-<h2>Skillset</h2>
-<div class="grid-container">
-
-  <div class="grid-item">
-  <img src="csrr.png" alt="Image 1"><p class="skilltitles">Customer Service</p>
+<!-- THIS IS CERTIFICATION SECTION-->
+<div class="certsect" id="certsection"><br>
+  <div class="certcontainer">
+    <h2>Certifications</h2> 
+	<img class="tsf" src="Coursera6SMGPF4J6S69.jpg">
+	<h4>Technical Support Fundamentals</h4>
   </div>
+</div>
 
-  <div class="grid-item">
-  <img src="fraud.png" alt="Image 2"><p class="skilltitles">Payments risk prevention</p>
-  </div>
 
-  <div class="grid-item">
-  <img src="java.png" alt="Image 3"><p class="skilltitles">Junior level Java</p>
-  </div>
-
-  <div class="grid-item">
-  <img src="sql.png" alt="Image 4"><p class="skilltitles">Junior level MySQL</p>
-  </div>
-        
-  <div class="grid-item">
-  <img src="gsuite.png" alt="Image 5"><p class="skilltitles">GSuite proficiency</p>
+<!-- THIS IS CONTACT SECTION-->
+<div class="contactsec" id="contactsection"><br>
+  <div class="container">	
+    <div class="connect">
+        <p><img src="connect.gif">&nbsp; Let's Connect!</p> 
+    </div>
+	  
+  <div class="contact-info">
+    <div class="address">
+     <h3>Address</h3>
+     <p><img src="location.png">&nbsp; Antipolo Rizal, Philippines 1930</p>
+    </div>
+		
+	<div class="email">
+     <h3>Email</h3>
+     <p><a href="mailto:giordanotubeo4152@gmail.com"><img src="email.png">&nbsp; giordanotubeo4152@gmail.com</a></p>
+    </div>			
+	  
+    <div class="social-media">
+      <h3>Socials</h3>
+      <p><a href="https://www.linkedin.com/in/giordano-tubeo-182551228/"><img src="linkedin.png">&nbsp; LinkedIn</a></p>
+      <p><a href="https://www.facebook.com/imyohsen"><img src="facebook.png">&nbsp; Facebook</a></p>
+	  <p><a href="https://instagram.com/imyohsen"><img src="instagram.png">&nbsp; Instagram</a></p>
+    </div>	
+  </div>   
   </div>
 </div>
  
-  <div class="resumedl">
-    <form method="get" action="Giordano_Mariano_ Tubeo_ Resume_112924.pdf"><h2>Resume: &nbsp;<button class="btn">Download <img src="download.ico" width="15vw" height="15vw"></h2></button></form>
-  </div>
-</div>
-</div>
-
-
-
-<div class="certsect" id="certsection">
-  <br>
-    <div class="certcontainer">
-      <h2>Certifications</h2> 
-	  <img class="tsf" src="Coursera6SMGPF4J6S69.jpg">
-	  <h4>Technical Support Fundamentals</h4>
-    </div>
-</div>
-
-
-
-<div class="contactsec" id="contactsection">
-<br> 
-    <div class="container">
-	
-	  <div class="connect">
-        <p><img src="connect.gif">&nbsp; Let's Connect!</p> 
-	  </div>
-	  
-      <div class="contact-info">
-          <div class="address">
-             <h3>Address</h3>
-             <p><img src="locationnn.png">&nbsp; Antipolo Rizal, Philippines 1930</p>
-          </div>
-		
-	  <div class="email">
-            <h3>Email</h3>
-            <p><a href="mailto:giordanotubeo4152@gmail.com"><img src="email.png">&nbsp; giordanotubeo4152@gmail.com</a></p>
-          </div>			
-
-		
-		
-          <div class="social-media">
-            <h3>Socials</h3>
-            
-              <p><a href="https://www.linkedin.com/in/giordano-tubeo-182551228/"><img src="linkedin.png">&nbsp; LinkedIn</a></p>
-			  <p><a href="https://www.facebook.com/imyohsen"><img src="facebook.png">&nbsp; Facebook</a></p>
-			  <p><a href="https://instagram.com/imyohsen"><img src="instagram.png">&nbsp; Instagram</a></p>
-            
-          </div>
-      </div>		 
-
-		
-        <div class="contact-form">
-            <h3>Get in Touch</h3>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <button>Send</button>
-            </form>
-        </div>
-    </div>
-
-	
 </body>
 </html>
