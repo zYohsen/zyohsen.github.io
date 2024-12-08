@@ -71,16 +71,16 @@ position: relative;
 
 .social-media img {
 float: left;
-width: 2vw;
-height: 2vw;
+width: 2.5vw;
+height: 2.5vw;
 filter: grayscale(100%);
 }
 
 .social-media p, a {
 color:white;
 text-decoration: none;
-line-height: 1vw;
-font-size: 1.2vw;
+line-height: 2vw;
+font-size: 1.5vw;
 }
 
 .social-media img:hover {
@@ -178,7 +178,7 @@ font-size: 1.2vw;
 		filter: grayscale(100%);
 }
 	.social-media p {
-		text-align: left;
+	text-align: left;
         line-height: 2vw;
         font-size: 3vw;
 }
