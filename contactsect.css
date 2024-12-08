@@ -27,7 +27,6 @@ height: 3.5vw;
 .connect p {
 line-height: 3.5vw;
 font-size: 2vw;
- 
 }
 
 .address {
@@ -44,7 +43,6 @@ line-height: 2vw;
 font-size: 1vw;
 }
 
-
 .email {
 width: 300px;
 position: relative;
@@ -56,43 +54,43 @@ color: #337ab7;
 font-size: 1vw;
 }
 .email img {
-float: left;
-width: 2vw;
-height: 2vw;
+	float: left;
+	width: 2vw;
+	height: 2vw;
 }
 
 .social-media {
-width: 300px;
-position: relative;
+	width: 300px;
+	position: relative;
 }
 .social-media img {
-float: left;
-width: 2.5vw;
-height: 2.5vw;
-filter: grayscale(100%);
+	float: left;
+	width: 2.5vw;
+	height: 2.5vw;
+	filter: grayscale(100%);
 }
 .social-media p, a {
-color:white;
-text-decoration: none;
-line-height: 2vw;
-font-size: 1.5vw;
+	color:white;
+	text-decoration: none;
+	line-height: 2vw;
+	font-size: 1.5vw;
 }
 .social-media img:hover {
-transform: scale(1.25);
-filter: grayscale(0%);
+	transform: scale(1.25);
+	filter: grayscale(0%);
 }
 .social-media p a:hover {
-transform: scale(1.25);
-font-weight: bold;
+	transform: scale(1.25);
+	font-weight: bold;
 }
 
 .contact-info {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .address, .social-media, .email {
- flex-basis: 30%;
+	flex-basis: 30%;
 }
 
 
@@ -104,7 +102,7 @@ justify-content: space-between;
 		margin-right:12.5vw;
         margin-bottom: 25vw;
 		margin-top: 0vw;
-		padding-top: 1vw;	
+		padding-top: 1vw;		
     }	
     .container h3{
 		font-size: 2vw;		
@@ -119,33 +117,33 @@ justify-content: space-between;
 	}
     .connect img {
 		float: left;
-		width: 5vw;
-		height: 5vw;
+        width: 5vw;
+        height: 5vw;
     }
     .connect p {
         line-height: 5.5vw;
-		height: 5vw;
+        height: 5vw;
 		font-size: 3vw;
-    }	
+    }
 	.address img{
-		float: left;
-		width: 3.5vw;
-		height: 3.5vw;
+        float: left;
+        width: 3.5vw;
+        height: 3.5vw;
 	} 
 	.address p{
-		line-height: 3.5vw;
-		font-size: 1.3vw;
-	}	
-	.email img{
-		float: left;
-		width: 1vw;
-		height: 1vw;
+        line-height: 3.5vw;
+        font-size: 1vw;
 	}
-	.email a{
-		line-height: 3.5vw;
-        font-size: 1.5vw;
-	}	
-		.social-media{
+	.email img{
+        float: left;
+        width: 3.5vw;
+        height: 3.5vw;
+	}
+	.email p{
+        line-height: 3.5vw;
+        font-size: 1vw;
+	}
+	.social-media{
 		margin-top: 5vw;
 	}
 	.social-media h3{
@@ -153,15 +151,15 @@ justify-content: space-between;
 	}
     .social-media img {
 		margin-left: 20vw;
-		float: left;
-		width: 3vw;
+        float: left;
+        width: 3vw;
 		height: 3vw;
 		filter: grayscale(100%);
     }
 	.social-media p {
 		text-align: left;
-		line-height: 2vw;
-		font-size: 3vw;
+        line-height: 2vw;
+        font-size: 3vw;
     }
 }
 
@@ -203,7 +201,7 @@ justify-content: space-between;
 	} 
 	.address p{
         line-height: 3.5vw;
-        font-size: 1.3vw;
+        font-size: 1vw;
 	}
 	.email img{
         float: left;
@@ -239,6 +237,7 @@ justify-content: space-between;
 	* {
      background: #000 !important;
      color: #0f0 !important;
-     outline: solid #f00 1px !important;
+	outline: solid #f00 1px !important;
+	}
 */
 	
