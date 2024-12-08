@@ -97,3 +97,26 @@ margin-bottom: 110vw;
 }	 
 }
 
+@media only screen and (max-width: 336px) {
+.intro {
+font-size: 8vw;	
+margin-top: 10vw;
+}
+#introle {
+font-size: 2.2vw;	
+margin-top: 18vw;
+}
+}
+
+
+
+@media only screen and (max-width: 672px) {
+.intro {
+font-size: 6.5vw;	
+margin-top: 10vw;
+}
+#introle {
+font-size: 1.6vw;	
+margin-top: 18vw;
+}
+}
