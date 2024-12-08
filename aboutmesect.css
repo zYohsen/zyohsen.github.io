@@ -107,15 +107,15 @@ p {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 10px;	
     padding: 5px; 
     box-shadow: 0 0 50px rgba(0, 0, 0, 1.5);  
 }
 
 .grid-item img {
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     object-fit: cover;
     transition: transform 0.3s ease-out;
 }
