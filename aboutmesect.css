@@ -9,7 +9,6 @@
     margin-bottom: 5vw;
     max-width: 1200px;
     color: white;
-    font-weight: 900;
 }
 
 hr{
@@ -80,47 +79,114 @@ p {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
 }
 
+.btn img{
+	width: 15vw;
+	height: 13vw;
+}
+
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
 }
 
-/* Responsive design */
-@media only screen and (max-width: 768px) 
-{
-	.aboutsection{
-        margin-left:26vw;
-	    margin-right:10vw;
-		margin-top: 0vw;
-        color: white;
+@media only screen and (max-width: 673px) {
+.aboutsection{
+    margin-left:12vw;
+	margin-right:1vw;
 }
-	.aboutsection h2{
-		font-size:4vw;
-	}
-	.aboutsection p{
-		font-size: 2.5vw;
-	}
-	.about {
-	    margin-left: 0vw;
-	    margin-right: 0vw;
-	}	
-	.aboutsubsect{
-		margin-left: 0vw;
-	    margin-right: 0vw;
-	}
-    .grid-container {
-        grid-template-columns: 2fr;
-        grid-gap: 2px;	
-    }
-    .grid-item img {
-		width: 30vw;
-        height: 30vw;
-    }
-	.grid-item img {
-        height: 30vw;
-    }
+.aboutsection p {
+	font-size: 1vw;	
+}
+.aboutsection h2 {
+	font-size: 1.5vw;	
+}
+.aboutsubsect{
+	max-width: 1200px;
+	margin-left: 13vw;  
+    margin-right:8vw;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+    grid-gap: 10px;	
+    padding: 5px; 
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1.5);  
+}
 
+.grid-item img {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
 }
+
+.grid-item img:hover {
+    transform: scale(1.21);
+    Background-color: white;
+}
+
+.resumedl h2{
+	font-size: 1vw;	
+}
+
+.btn{
+	font-size: 1vw;	
+}
+.btn img{
+	width: 1vw;
+	height: 1vw;
+}
+}
+
+@media only screen and (max-width: 336px) {
+.aboutsection{
+    margin-left:12vw;
+	margin-right:1vw;
+}
+.aboutsection p {
+	font-size: 1vw;	
+}
+.aboutsection h2 {
+	font-size: 1.5vw;	
+}
+.aboutsubsect{
+	max-width: 800px;
+	margin-left: 13vw;  
+    margin-right:8vw;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    grid-gap: 10px;	
+    padding: 5px; 
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1.5);  
+}
+
+.grid-item img {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+}
+
+.grid-item img:hover {
+    transform: scale(1.21);
+    Background-color: white;
+}
+
+.resumedl h2{
+	font-size: 1vw;	
+}
+
+.btn{
+	font-size: 1vw;	
+}
+.btn img{
+	width: 1vw;
+	height: 1vw;
+}
+
+
 
 
 
