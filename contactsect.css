@@ -138,8 +138,8 @@ button:hover {
 @media only screen and (max-width: 672px) {
  
     .container {
-	margin-left:30vw;
-	margin-right:15vw;
+	margin-left:25vw;
+	margin-right:12.5vw;
         margin-bottom: 25vw;
 	margin-top: 0vw;
 	padding-top: 1vw;	
@@ -200,7 +200,7 @@ button:hover {
     .social-media p {
 	text-align: left;
         line-height: 5vw;
-        font-size: 6vw;
+        font-size: 10vw;
         }
 }
 
