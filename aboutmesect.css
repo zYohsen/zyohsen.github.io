@@ -92,13 +92,13 @@ p {
 @media only screen and (max-width: 673px) {
 .aboutsection{
     margin-left:12vw;
-	margin-right:1vw;
+    margin-right:1vw;
 }
 .aboutsection p {
-	font-size: 1vw;	
+	font-size: 2.5vw;	
 }
 .aboutsection h2 {
-	font-size: 1.5vw;	
+	font-size: 4vw;	
 }
 .aboutsubsect{
 	max-width: 1200px;
@@ -126,28 +126,28 @@ p {
 }
 
 .resumedl h2{
-	font-size: 1vw;	
+	font-size: 2.5vw;	
 }
 
 .btn{
 	font-size: 1vw;	
 }
 .btn img{
-	width: 1vw;
-	height: 1vw;
+	width: 2.5vw;
+	height: 2.5vw;
 }
 }
 
 @media only screen and (max-width: 336px) {
 .aboutsection{
     margin-left:12vw;
-	margin-right:1vw;
+    margin-right:1vw;
 }
 .aboutsection p {
-	font-size: 1vw;	
+	font-size: 2.5vw;	
 }
 .aboutsection h2 {
-	font-size: 1.5vw;	
+	font-size: 4vw;	
 }
 .aboutsubsect{
 	max-width: 800px;
@@ -170,20 +170,20 @@ p {
 }
 
 .grid-item img:hover {
-    transform: scale(1.21);
+    transform: scale(1.3);
     Background-color: white;
 }
 
 .resumedl h2{
-	font-size: 1vw;	
+	font-size: 2.5vw;	
 }
 
 .btn{
-	font-size: 1vw;	
+	font-size: 2.5vw;	
 }
 .btn img{
-	width: 1vw;
-	height: 1vw;
+	width: 2.5vw;
+	height: 2.5vw;
 }
 
 
