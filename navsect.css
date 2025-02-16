@@ -68,6 +68,10 @@
   transition: color 0.2s ease;
 }
 
+.navbar a{
+	font-size: 2.5vw;
+}
+
 .nav-btn:hover {
   color: #ccc;  
 }
