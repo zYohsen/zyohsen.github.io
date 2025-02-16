@@ -104,12 +104,14 @@ font-size: 1vw;
 		padding-top: 1vw;		
     }	
     .container h3{
-		font-size: 2vw;		
+		font-size: 2vw;
+
     }	
     .connect, .address, .social-media, .email {
         flex-basis: 100%;
         margin-bottom: 2vw;
 		max-width: 48vw;
+		
     }
 	.connect{
 		margin-left: 14vw;
@@ -124,32 +126,44 @@ font-size: 1vw;
         height: 5vw;
 		font-size: 3vw;
     }
+	
+
+	.address h3{
+		margin-left: 24vw;
+	}
 	.address img{
         float: left;
         width: 3.5vw;
         height: 3.5vw;
+		margin-left: 18vw;
 	} 
 	.address p{
         line-height: 3.5vw;
         font-size: 1vw;
 	}
+	
+
+	.email h3{
+		margin-left: 25vw;
+	}
 	.email img{
         float: left;
         width: 3.5vw;
         height: 3.5vw;
+		margin-left: 18vw;
 	}
 	.email p{
         line-height: 3.5vw;
         font-size: 1vw;
+		
 	}
-	.social-media{
-		margin-top: 5vw;
-	}
+
+
 	.social-media h3{
-		text-align: center;
+		margin-left: 25vw;
 	}
     .social-media img {
-		margin-left: 20vw;
+		margin-left: 23vw;
         float: left;
         width: 3vw;
 		height: 3vw;
