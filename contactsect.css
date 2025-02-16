@@ -115,7 +115,7 @@ font-size: 1vw;
 		
     }
 	.connect{
-		margin-left: 14vw;
+		margin-left: 13vw;
 	}
     .connect img {
 		float: left;
@@ -196,7 +196,7 @@ font-size: 1vw;
 		max-width: 48vw;
     }
 	.connect{
-		margin-left: 14vw;
+		margin-left: 13vw;
 	}
     .connect img {
 		float: left;
@@ -210,13 +210,13 @@ font-size: 1vw;
     }
 	
 	.address h3{
-		margin-left: 20vw;
+		margin-left: 19vw;
 	}
 	.address img{
         float: left;
         width: 3.5vw;
         height: 3.5vw;
-		margin-left: 15vw;
+		margin-left: 13vw;
 	} 
 	.address p{
         line-height: 3.5vw;
