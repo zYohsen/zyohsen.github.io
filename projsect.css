@@ -1,0 +1,121 @@
+.projsect {
+	margin-bottom: 50vw;
+}
+
+.projcontainer {
+  margin-left: 13vw;
+  margin-right:8vw;
+  margin-top: 4.5vw;
+  max-width: 1200px;
+  color: white;
+}
+
+
+iframe.chattracker {
+	width: 70vw;
+	height: 41vw;
+	
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.projcontainer h4{
+	text-align: center;
+	margin-top: 1vw;
+	margin-bottom: 2vw;
+	
+}
+.projcontainer a{
+	margin-top:5vw;
+	color: skyblue;
+}
+
+.projcontainer a:hover {
+	font-size: 1.6vw;
+	color: blue;
+}
+
+
+@media only screen and (max-width: 768px){
+
+.projcontainer {
+  margin-left:26vw;
+  margin-right:10vw;
+  margin-top: 0;
+  color: white;
+  font-size: 2vw;
+  
+}
+
+iframe.chattracker {
+	display: none;
+}
+
+.projcontainer h4{
+	margin-top: 10vw;
+	margin-bottom: 200vw;
+}	
+
+.projcontainer a {
+	margin-top: 5vw;
+	font-size: 2vw;
+	color: skyblue;
+}
+.projcontainer a:hover {
+	transform: scale(2);
+	font-size: 3.5vw;
+	color: blue;
+}
+
+}
+
+@media only screen and (max-width: 673px) {
+.projcontainer h2{
+	font-size: 4vw;
+}
+
+iframe.chattracker {
+	display: none;
+}
+
+.projcontainer h4 {
+	margin-top: 10vw;
+	margin-bottom: 200vw;
+}
+
+.projcontainer a {
+	margin-top: 5vw;
+	font-size: 3vw;
+	color: skyblue;
+}
+.projcontainer a:hover {
+	transform: scale(2);
+	font-size: 3.5vw;
+	color: blue;
+}
+}
+
+@media only screen and (max-width: 336px) {
+.projcontainer h2{
+	font-size: 4vw;
+}
+
+iframe.chattracker {
+	display: none;
+}
+
+.projcontainer h4 {
+	margin-top: 10vw;
+	margin-bottom: 200vw;
+}
+
+.projcontainer a {
+	margin-top: 5vw;
+	font-size: 3vw;
+	color:skyblue;
+}
+.projcontainer a:hover {
+	transform: scale(2);
+	font-size: 3.5vw;
+	color: blue;
+}
+}
